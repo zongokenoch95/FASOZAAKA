@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accueil{
+background-image: url(AC.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+text-align: center;
+}
+
+.accueil h1{
+padding-top:10%;
+font-size: 100px;
+color: white;
+}
+
+.accueil p{
+font-size: 30px;
+ color: white;
+}
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    body {
+      margin: 0;
+      background-color:rgb(244, 244, 244);
+    }
+
+   .new {
+      text-align: center;
+      padding: 30px 0;
+      background-color:  #3CAA36;
+      color: white;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .property-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .property-card:hover {
+      transform: scale(1.02);
+    }
+
+    .property-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .property-info {
+      padding: 15px;
+    }
+
+    .property-info h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #2c3e50;
+    }
+
+    .property-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #27ae60;
+      color: white;
+      padding: 3px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      margin-right: 5px;
+    }
+
+    .tag.vente {
+      background: #e67e22;
+    }
+
+    .tag.location {
+      background: #3498db;
+    }
